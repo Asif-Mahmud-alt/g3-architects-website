@@ -120,6 +120,50 @@ main > section{
 #feature {
   color: #FF900E;
 }
+
+/* features related design */
+.fratures {
+  margin-top:130px;
+  margin-bottom: 130px;
+  gap: 100px;
+}
+
+#fratures-border-design{
+  border-left: 5px solid #FF900E ;
+  padding-left: 20px;
+}
+.frature-card {
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+.frature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#experience-badge {
+  padding: 45px 42px;
+  font-size: 1.25rem;
+  margin-left: -50px;
+  margin-top: -70px;
+}
+
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.arcgutect-apu {
+  /* margin-left: 130px; */
+  width: 100%;
+  height: auto;
+}
+
 /* facts cards section design  */
 
 .fact-container{
@@ -173,12 +217,26 @@ main > section{
   filter: grayscale(100%);
 }
 
+.footer {
+  text-align: center;
+  margin-top: 130px;
+  max-width: 1140px;
+   padding: 40px 0px;
+  margin: 130px auto;
+}
+
+.footer-contentr {
+  font-size: 1.25rem;
+ 
+}
+
 
 /*  responsive  for various devices*/
 
 @media screen and (max-width:576px) {
   .navbar, 
   .nav-links, 
+  .fratures,
   .team-features {
     flex-direction: column;
   }
@@ -191,6 +249,10 @@ main > section{
  .sponspors-companies{
   justify-items: center;
   gap: 50px;
+ }
+ #experience-badge {
+  margin: 10px 10px;
+  padding: 20px 20px;
  }
 }
 
